@@ -1,0 +1,198 @@
+---
+---
+
+@ARTICLE{10.3389/frai.2023.1220476,
+author={Cafagna, Michele and Rojas-Barahona, Lina M. and van Deemter, Kees and Gatt, Albert},   
+title={Interpreting vision and language generative models with semantic visual priors},      
+journal={Frontiers in Artificial Intelligence},      
+volume={6},           
+year={2023},        
+url={https://www.frontiersin.org/articles/10.3389/frai.2023.1220476},       
+doi={10.3389/frai.2023.1220476},     	
+issn={2624-8212},     
+abstract={When applied to Image-to-text models, explainability methods have two challenges. First, they often provide token-by-token explanations namely, they compute a visual explanation for each token of the generated sequence. This makes explanations expensive to compute and unable to comprehensively explain the model's output. Second, for models with visual inputs, explainability methods such as SHAP typically consider superpixels as features. Since superpixels do not correspond to semantically meaningful regions of an image, this makes explanations harder to interpret. We develop a framework based on SHAP, that allows for generating comprehensive, meaningful explanations leveraging the meaning representation of the output sequence as a whole. Moreover, by exploiting semantic priors in the visual backbone, we extract an arbitrary number of features that allows the efficient computation of Shapley values on large-scale models, generating at the same time highly meaningful visual explanations. We demonstrate that our method generates semantically more expressive explanations than traditional methods at a lower compute cost and that it can be generalized to a large family of vision-language models.},
+selected={true},
+pdf={https://www.frontiersin.org/articles/10.3389/frai.2023.1220476/full},
+code={https://github.com/michelecafagna26/HL-dataset},
+preview={https://images.deepai.org/publication-preview/interpreting-vision-and-language-generative-models-with-semantic-visual-priors-page-9-medium.jpg},
+}
+
+@inproceedings{parcalabescu-etal-2022-valse,
+    title = "{VALSE}: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena",
+    author = "Parcalabescu, Letitia  and
+      Cafagna, Michele  and
+      Muradjan, Lilitta  and
+      Frank, Anette  and
+      Calixto, Iacer  and
+      Gatt, Albert",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.567",
+    doi = "10.18653/v1/2022.acl-long.567",
+    pages = "8253--8280",
+    abstract = "We propose VALSE (Vision And Language Structured Evaluation), a novel benchmark designed for testing general-purpose pretrained vision and language (V{\&}L) models for their visio-linguistic grounding capabilities on specific linguistic phenomena. VALSE offers a suite of six tests covering various linguistic constructs. Solving these requires models to ground linguistic phenomena in the visual modality, allowing more fine-grained evaluations than hitherto possible. We build VALSE using methods that support the construction of valid foils, and report results from evaluating five widely-used V{\&}L models. Our experiments suggest that current models have considerable difficulty addressing most phenomena. Hence, we expect VALSE to serve as an important benchmark to measure future progress of pretrained V{\&}L models from a linguistic perspective, complementing the canonical task-centred V{\&}L evaluations.",
+    selected={true},
+    pdf={https://aclanthology.org/2022.acl-long.567},
+    code={https://github.com/Heidelberg-NLP/VALSE},
+    preview={https://images.deepai.org/publication-preview/valse-a-task-independent-benchmark-for-vision-and-language-models-centered-on-linguistic-phenomena-page-20-medium.jpg}
+}
+
+@inproceedings{cafagna-etal-2023-hl,
+    title = "{HL} Dataset: Visually-grounded Description of Scenes, Actions and Rationales",
+    author = "Cafagna, Michele  and
+      van Deemter, Kees  and
+      Gatt, Albert",
+    editor = "Keet, C. Maria  and
+      Lee, Hung-Yi  and
+      Zarrie{\ss}, Sina",
+    booktitle = "Proceedings of the 16th International Natural Language Generation Conference",
+    month = sep,
+    year = "2023",
+    address = "Prague, Czechia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.inlg-main.21",
+    pages = "293--312",
+    abstract = "Current captioning datasets focus on object-centric captions, describing the visible objects in the image, often ending up stating the obvious (for humans), e.g. {``}people eating food in a park{''}. Although these datasets are useful to evaluate the ability of Vision {\&} Language models to recognize and describe visual content, they do not support controlled experiments involving model testing or fine-tuning, with more high-level captions, which humans find easy and natural to produce. For example, people often describe images based on the type of scene they depict ({``}people at a holiday resort{''}) and the actions they perform ({``}people having a picnic{''}). Such concepts are based on personal experience and contribute to forming common sense assumptions. We present the High-Level Dataset, a dataset extending 14997 images from the COCO dataset, aligned with a new set of 134,973 human-annotated (high-level) captions collected along three axes: scenes, actions and rationales. We further extend this dataset with confidence scores collected from an independent set of readers, as well as a set of narrative captions generated synthetically, by combining each of the three axes. We describe this dataset and analyse it extensively. We also present baseline results for the High-Level Captioning task.",
+    selected={true},
+    pdf={https://aclanthology.org/2023.inlg-main.21},
+    code={https://github.com/michelecafagna26/HL-dataset},
+    poster={https://sigdialinlg2023.github.io/static/posters/INLG2023/13.pdf},
+    preview={https://images.deepai.org/publication-preview/hl-dataset-grounding-high-level-linguistic-concepts-in-vision-page-3-medium.jpg}
+}
+
+@inproceedings{cafagna2019suitable,
+  title={Suitable Doesn't Mean Attractive. Human-Based Evaluation of Automatically Generated Headlines},
+  author={Cafagna, Michele and De Mattei, Lorenzo and Bacciu, Davide and Nissim, Malvina},
+  booktitle={CLiC-it},
+  year={2019},
+  pdf={https://ceur-ws.org/Vol-2481/paper13.pdf},
+}
+
+@inproceedings{mattei-etal-2020-interaction,
+    title = "On the interaction of automatic evaluation and task framing in headline style transfer",
+    author = "Mattei, Lorenzo De  and
+      Cafagna, Michele  and
+      Lai, Huiyuan  and
+      Dell{'}Orletta, Felice  and
+      Nissim, Malvina  and
+      Gatt, Albert",
+    editor = "Agarwal, Shubham  and
+      Du{\v{s}}ek, Ond{\v{r}}ej  and
+      Gehrmann, Sebastian  and
+      Gkatzia, Dimitra  and
+      Konstas, Ioannis  and
+      Van Miltenburg, Emiel  and
+      Santhanam, Sashank",
+    booktitle = "Proceedings of the 1st Workshop on Evaluating NLG Evaluation",
+    month = dec,
+    year = "2020",
+    address = "Online (Dublin, Ireland)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.evalnlgeval-1.5",
+    pages = "38--43",
+    abstract = "An ongoing debate in the NLG community concerns the best way to evaluate systems, with human evaluation often being considered the most reliable method, compared to corpus-based metrics. However, tasks involving subtle textual differences, such as style transfer, tend to be hard for humans to perform. In this paper, we propose an evaluation method for this task based on purposely-trained classifiers, showing that it better reflects system differences than traditional metrics such as BLEU.",
+    pdf={https://aclanthology.org/2020.evalnlgeval-1.5},
+    preview={https://images.deepai.org/publication-preview/on-the-interaction-of-automatic-evaluation-and-task-framing-in-headline-style-transfer-page-1-medium.jpg},
+}
+
+@inproceedings{cafagna-etal-2022-understanding,
+    title = "Understanding Cross-modal Interactions in {V}{\&}{L} Models that Generate Scene Descriptions",
+    author = "Cafagna, Michele  and
+      Deemter, Kees van  and
+      Gatt, Albert",
+    booktitle = "Proceedings of the Workshop on Unimodal and Multimodal Induction of Linguistic Structures (UM-IoS)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.umios-1.6",
+    doi = "10.18653/v1/2022.umios-1.6",
+    pages = "56--72",
+    abstract = "Image captioning models tend to describe images in an object-centric way, emphasising visible objects. But image descriptions can also abstract away from objects and describe the type of scene depicted. In this paper, we explore the potential of a state of the art Vision and Language model, VinVL, to caption images at the scene level using (1) a novel dataset which pairs images with both object-centric and scene descriptions. Through (2) an in-depth analysis of the effect of the fine-tuning, we show (3) that a small amount of curated data suffices to generate scene descriptions without losing the capability to identify object-level concepts in the scene; the model acquires a more holistic view of the image compared to when object-centric descriptions are generated. We discuss the parallels between these results and insights from computational and cognitive science research on scene perception.",
+    selected={true},
+    pdf={https://aclanthology.org/2022.umios-1.6},
+    preview={https://images.deepai.org/publication-preview/understanding-cross-modal-interactions-in-v-l-models-that-generate-scene-descriptions-page-1-medium.jpg},
+}
+
+@article{cafagna2021vision,
+  title={What Vision-Language Models 'See' when they See Scenes},
+  author={Cafagna, Michele and van Deemter, Kees and Gatt, Albert},
+  journal={arXiv preprint arXiv:2109.07301},
+  year={2021},
+  selected={true},
+  arxiv={2109.07301},
+  pdf={https://arxiv.org/abs/2109.07301},
+  code={https://github.com/michelecafagna26/vl-ablation},
+  preview={https://images.deepai.org/publication-preview/what-vision-language-models-see-when-they-see-scenes-page-1-medium.jpg}
+}
+
+@inproceedings{de2020change,
+  title={CHANGE-IT@ EVALITA 2020: Change Headlines, Adapt News, GEnerate},
+  author={De Mattei, Lorenzo and Cafagna, Michele and Dell’Orletta, Felice and Nissim, Malvina and Gatt, Albert},
+  booktitle={Evaluation Campaign of Natural Language Processing and Speech Tools for Italian},
+  year={2020},
+  organization={European Language Resources Association (ELRA)},
+  pdf={https://ceur-ws.org/Vol-2765/paper169.pdf},
+  code={https://github.com/michelecafagna26/CHANGE-IT},
+}
+
+@inproceedings{van-der-goot-etal-2020-norm,
+    title = "Norm It! Lexical Normalization for {I}talian and Its Downstream Effects for Dependency Parsing",
+    author = "van der Goot, Rob  and
+      Ramponi, Alan  and
+      Caselli, Tommaso  and
+      Cafagna, Michele  and
+      De Mattei, Lorenzo",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Moreno, Asuncion  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
+    month = may,
+    year = "2020",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2020.lrec-1.769",
+    pages = "6272--6278",
+    abstract = "Lexical normalization is the task of translating non-standard social media data to a standard form. Previous work has shown that this is beneficial for many downstream tasks in multiple languages. However, for Italian, there is no benchmark available for lexical normalization, despite the presence of many benchmarks for other tasks involving social media data. In this paper, we discuss the creation of a lexical normalization dataset for Italian. After two rounds of annotation, a Cohen{'}s kappa score of 78.64 is obtained. During this process, we also analyze the inter-annotator agreement for this task, which is only rarely done on datasets for lexical normalization,and when it is reported, the analysis usually remains shallow. Furthermore, we utilize this dataset to train a lexical normalization model and show that it can be used to improve dependency parsing of social media data. All annotated data and the code to reproduce the results are available at: \url{http://bitbucket.org/robvanderg/normit}.",
+    language = "English",
+    ISBN = "979-10-95546-34-4",
+    pdf={https://aclanthology.org/2020.lrec-1.769},
+}
+
+@article{de2020geppetto,
+  title={Geppetto carves italian into a language model},
+  author={De Mattei, Lorenzo and Cafagna, Michele and Dell'Orletta, Felice and Nissim, Malvina and Guerini, Marco},
+  journal={arXiv preprint arXiv:2004.14253},
+  year={2020},
+  abstract={In the last few years, pre-trained neural architectures have provided impressive improvements across several NLP tasks. Still, generative language models are available mainly for English. We develop GePpeTto, the first generative language model for Italian, built using the GPT-2 architecture. We provide a thorough analysis of GePpeTto's quality by means of both an automatic and a human-based evaluation. The automatic assessment consists in (i) calculating perplexity across different genres and (ii) a profiling analysis over GePpeTto's writing characteristics. We find that GePpeTto's production is a sort of bonsai version of human production, with shorter but yet complex sentences. Human evaluation is performed over a sentence completion task, where GePpeTto's output is judged as natural more often than not, and much closer to the original human texts than to a simpler language model which we take as baseline.},
+  arxiv={2004.14253v1},
+  pdf={https://arxiv.org/abs/2004.14253v1},
+  preview={https://images.deepai.org/publication-preview/geppetto-carves-italian-into-a-language-model-page-7-medium.jpg}
+}
+
+@article{cafagna2020embeddings,
+  title={Embeddings-based detection of word use variation in Italian newspapers},
+  author={Cafagna, Michele and De Mattei, Lorenzo and Nissim, Malvina},
+  journal={IJCoL. Italian Journal of Computational Linguistics},
+  volume={6},
+  number={6-2},
+  pages={9--22},
+  year={2020},
+  abstract={We study how words are used differently in two Italian newspapers at opposite ends of the political spectrum by training embeddings on one newspaper’s corpus, updating the weights on the second one, and observing vector shifts. We run two types of analysis, one top-down, based on a preselection of frequent words in both newspapers, and one bottom-up, on the basis of a combination of the observed shifts and relative and absolute frequency. The analysis is specific to this data, but the method can serve as a blueprint for similar studies.},
+  publisher={Accademia University Press},
+  pdf={https://journals.openedition.org/ijcol/703},
+}
