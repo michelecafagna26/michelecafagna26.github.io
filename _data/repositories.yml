@@ -3,6 +3,7 @@ github_users:
 
 github_repos:
   - michelecafagna26/vl-shap
+  - michelecafagna26/vl-shap-demo
   - michelecafagna26/HL-dataset
   - michelecafagna26/vl-ablation
   - michelecafagna26/faster-rcnn-bottom-up-py
