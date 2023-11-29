@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Michele Cafagna",
-    "label": "Machine Learning Researcher/Engineer",
+    "label": "Machine Learning- NLP, CV, XAI Researcher/Engineer",
     "image": "",
     "email": "m.cafagna26{at}gmail.com",
     // "phone": "(912) 123-4567",
@@ -37,7 +37,7 @@
       "endDate": "2022-12",
       "summary": "Internship at the Orange Innovation Lab under the supervision of Lina M. Rojas Barahona. Developed an Explainability framework based on KernelSHAP to explain efficiently Large Vision and Language Generative models using semantically informed visual priors.",
       "highlights": [
-        "Explainable Vision and Language", "Research Projects", "Algorithm Design", "Gennerarive AI", "XAI"
+        "Explainable Vision and Language", "Industrial Research", "Algorithm Design", "Software Development", "XAI", "Presentation Skills"
       ]
     },
 
@@ -85,7 +85,7 @@
       "endDate": "2019-05",
       "summary": "Worked on Generative Language Models and Analysis of Writing Styles in Journalism  under the supervision of Prof. Malvina Nissim. The output of this work led to three publications",
       "highlights": [
-        "Explainable Vision and Language", "Master Student Supervision"
+        "Natural Language Generation", "Data collection", "Web scraping", "Research"
       ]
     }
   ],
@@ -94,7 +94,7 @@
     {
       "institution": "University of Malta, Malta 🇲🇹",
       "url": "https://www.um.edu.mt/linguistics/",
-      "area": "Generative Vision and Language Modeling, Multimodal Grounding and Explainability",
+      "area": "Natural Language Processing & Computer Vision (Multimodal AI) and Explainability (XAI)",
       "studyType": "Phd",
       "startDate": "2020",
       "endDate": "present",
