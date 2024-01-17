@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper “ViLMA: A Zero-Shot Benchmark for Linguistic and Temporal Grounding in Video-Language Models” , accepted @ICLR 2024 , Vienna,🇦🇹 🎉
+Our paper<a href="https://openreview.net/forum?id=liuqDwmbQJ"> “ViLMA: A Zero-Shot Benchmark for Linguistic and Temporal Grounding in Video-Language Models”</a> , accepted @ICLR 2024 , Vienna,🇦🇹 🎉
