@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.um.edu.mt/'>Univeristy of Malta</a>
+subtitle: NLP Data Scientist @<a href='https://www.um.edu.mt/'>Okra.ai</a>
 
 profile:
   align: right
   image: avatar.png
   image_circular: True # crops the image to make it circular
   more_info: >
-    <p>Msida, Malta</p>
+    <p>Leiden, The Netherlands</p>
 
 news: true  # includes a list of news items
 latest_posts: False  # includes a list of the newest posts
