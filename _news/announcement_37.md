@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined <a href="https://okra.ai/"> Okra.ai</a> , NLP Data Scentist,🇳🇱 🎉
+Joined <a href="https://okra.ai/"> Okra.ai</a> as NLP Data Scentist,🇳🇱 🎉
