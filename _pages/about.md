@@ -17,8 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm Michele [miˈkɛːle], NLP R&D Scientist at [Okra.ai](https://okra.ai/), working in Medical NLP. 
-My primary interests lie at the intersection of **Computer Vision, Natural Language, Cognitive Sciences**, and **XAI**.
+I'm Michele [miˈkɛːle], NLP R&D Scientist at [Okra.ai](https://okra.ai/), 
+
+I'm work in Medical NLP. however, my interests lie at the intersection of **Computer Vision, Natural Language, Cognitive Sciences**, and **XAI**, 
 
 I've received my Phd from the [Institute of Linguistics & Language Technology](https://www.um.edu.mt/linguistics/) at the University of Malta, 🇲🇹, supervised by Prof. [Albert Gatt](https://albertgatt.github.io/) and co-supervised by Prof. [Kees van Deemter](https://www.uu.nl/staff/CJvanDeemter).
 Here I was a Marie Curie PhD Fellow and Early Stage Researcher in the [NL4XAI Project](https://nl4xai.eu/) 
