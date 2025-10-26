@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 11th March 1879
     - name: Languages
-      value: English (professional), Italian (native), Franch (basic), Spanish (basic)
+      value: English (professional), Italian (native), French (basic), Spanish (basic)
 
 - title: Education
   type: time_table
